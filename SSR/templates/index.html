@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="header">
         <h1>Bridge Wave</h1>
         <div class="menu">
-            <a href="index.html">
+            <a href="/">
                 <button>Home</button>
             </a>
-            <a href="cursos.html">
+            <a href="cursos">
                 <button>Cursos</button>
             </a>
-            <a href="noticias.html">
+            <a href="noticias">
                 <button>Noticias</button>
             </a>
-            <a href="professor.html">
+            <a href="professor">
                 <button>Seja um professor</button>
             </a>
-            <a href="quem_somos.html">
+            <a href="quem_somos">
                 <button>Quem somos</button>
             </a>
         </div>
