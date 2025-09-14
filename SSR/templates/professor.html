@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridge Wave - Seja Professor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <h1>🌊 Bridge Wave</h1>
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/cursos">Cursos</a>
+      <a href="/noticias">Notícias</a>
+      <a href="/professor">Seja Professor</a>
+      <a href="/quem_somos">Quem Somos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Junte-se ao time Bridge Wave</h2>
+    <p>Compartilhe seus conhecimentos e inspire alunos do mundo todo.</p>
+    <form class="form-professor">
+      <label>Nome: <input type="text" name="nome"></label>
+      <label>Email: <input type="email" name="email"></label>
+      <label>Área de atuação: <input type="text" name="area"></label>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Bridge Wave — Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
